@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Prettl</string>
+    <string name="action_settings">Settings</string>
+    <string name="loyaut1">Норма виробу</string>
+    <string name="loyaut2">Порахувати</string>
+    <string name="loyaut3">Очистити.....</string>
+    <string name="loyaut4">Наявна кількість</string>
+    <string name="loyaut5">Результат год.</string>
+    <string name="loyaut6">КРОК НАЗАД!</string>
+    <string name="loyaut7">  ОЧИСТИТИ  ГОДИНИ !</string>
+    <string name="loyaut8">0,000</string>
+    <string name="loyaut9">Запамятати!  .</string>
+    <string name="loyaut11">  Зроблено год.</string>
+    <string name="loyaut12">      Залишилось год.</string>
+    <string name="loyautinf">8,000</string>
+    <string name="action_save">зберегти</string>
+    <string name="action_open">.   .   . відкрити</string>
+
+
+</resources>

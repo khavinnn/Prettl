@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.havin.prettl.MainActivity"
+
+    android:background="@drawable/landishi">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/loyaut1"
+            android:id="@+id/text1"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/pv1"
+            android:layout_weight="1"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/loyaut4"
+            android:id="@+id/textView"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/pv2"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/loyaut5"
+            android:id="@+id/textView2"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/pv3"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="82dp"
+            android:layout_height="65dp"
+            android:text="@string/loyaut3"
+            android:id="@+id/but1"
+            android:background="@drawable/zdellit"
+            android:textColor="#040b6a"
+            android:layout_marginRight="20dp"
+            android:textStyle="normal|italic"
+            android:typeface="sans"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/butrem"
+            android:text="@string/loyaut9"
+            android:background="@drawable/zflesh"
+            android:textColor="#140360"
+            android:layout_weight="1"
+            android:layout_marginLeft="12dp"
+            android:elegantTextHeight="false"
+            android:typeface="serif"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/loyaut2"
+            android:id="@+id/but2"
+            android:layout_weight="1"
+            android:background="@drawable/zporah"
+            android:textColor="#c70b0356"
+            android:layout_marginLeft="15dp"
+            android:typeface="monospace"
+            android:textSize="12sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/loyaut11"
+            android:id="@+id/inf1"
+            android:layout_weight="1"
+            android:textColor="#0b29bc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/loyaut12"
+            android:id="@+id/inf2"
+            android:layout_weight="1"
+            android:textColor="#fc0505" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/loyaut8"
+            android:id="@+id/rez"
+            android:layout_weight="1"
+            android:textColor="#0b3af6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/loyautinf"
+            android:id="@+id/rezz"
+            android:layout_weight="1"
+            android:textColor="#fb0404" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:text="@string/loyaut7"
+            android:id="@+id/but3"
+            android:background="@drawable/zdell"
+            android:layout_marginRight="70dp"
+            android:textColor="#0311a8"
+            android:textStyle="bold|italic"
+            android:textSize="12sp" />
+
+        <Button
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:text="@string/loyaut6"
+            android:id="@+id/butc"
+            android:background="@drawable/zshnaz"
+            android:textColor="#ca0606fd"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold|italic"
+            android:typeface="monospace"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/rem1"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/rem2"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/rem3"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/rem4"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/rem5"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/rem6"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/rem7"
+            android:layout_weight="0.39"
+            android:text="@string/loyautinf" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/loyautinf"
+            android:id="@+id/rem8"
+            android:layout_weight="0.44" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/loyautinf"
+            android:id="@+id/rem9"
+            android:layout_weight="0.13" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView"
+            android:visibility="visible"
+            android:background="@drawable/prettl" />
+
+        <AnalogClock
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/analogClock"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/perehid"
+            android:layout_height="75dp"
+            android:layout_width="75dp"
+            android:background="@drawable/zjeva" />
+
+    </LinearLayout>
+
+</LinearLayout>
